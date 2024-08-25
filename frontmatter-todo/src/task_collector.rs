@@ -1,4 +1,3 @@
-
 use crate::models::Task;
 
 pub trait TaskCollector {

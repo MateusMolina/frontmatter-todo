@@ -5,3 +5,6 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4"
+fronma = "~0.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_with = { version = "2", features = ["chrono"] }
